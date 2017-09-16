@@ -1,0 +1,31 @@
+   1: 
+Scanner: NEWLINE token on line 1
+   2: # En Tab test hilsen
+Scanner: NEWLINE token on line 2
+   3: navn = "Dag"
+Scanner: NEWLINE token on line 3
+   4: print("Hei,", navn)
+Scanner: NEWLINE token on line 4
+   5: if b:
+Scanner: NEWLINE token on line 5
+   6:     while c:
+Scanner: INDENT token on line 6
+Scanner: NEWLINE token on line 6
+   7:         c = False
+Scanner: INDENT token on line 7
+Scanner: NEWLINE token on line 7
+   8:         d = False
+Scanner: NEWLINE token on line 8
+   9:         if c:
+Scanner: NEWLINE token on line 9
+  10:             g = true
+Scanner: INDENT token on line 10
+Scanner: NEWLINE token on line 10
+  11:         else:
+Scanner: DEDENT token on line 11
+Scanner: NEWLINE token on line 11
+  12: else:
+Scanner: DEDENT token on line 12
+Scanner: NEWLINE token on line 12
+  13: b = 0
+Scanner: NEWLINE token on line 13
