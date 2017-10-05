@@ -7,28 +7,24 @@ import no.uio.ifi.asp.runtime.RuntimeValue;
 import no.uio.ifi.asp.scanner.Scanner;
 import no.uio.ifi.asp.scanner.TokenKind;
 
-/**
- *
- */
-public class AspFactorOpr extends AspSyntax{
-    TokenKind oprType;
+public class AspTermOpr extends AspSyntax {
+    TokenKind tOprKind;
 
-    public AspFactorOpr(int lNum) {
-        super(lNum);
+    AspTermOpr(int n) {
+        super(n);
     }
 
+    public static AspTermOpr parse(Scanner s) {
+        Main.log.enterParser("term opr");
+        AspTermOpr tOpr = new AspTermOpr(s.curLineNum());
 
-
-    public static AspFactorOpr parse(Scanner s) {
-        Main.log.enterParser("factor opr");
-        AspFactorOpr fOpr = new AspFactorOpr(s.curLineNum());
-
-        fOpr.oprType = s.curToken().kind;
+        tOpr.tOprKind = s.curToken().kind;
         s.readNextToken();
 
-        Main.log.leaveParser("factor opr");
-        return fOpr;
+       Main.log.leaveParser("AspTermOpr");
+        return tOpr;
     }
+
     @Override
     protected void prettyPrint() {
 
