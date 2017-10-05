@@ -66,8 +66,7 @@ public class Scanner {
 
     private void readNextLine() {
 	curLineTokens.clear();
-	//System.out.println("am in readNextLine");
-	// Read the next line:
+
 	String line = null;
 	try {
 	    line = sourceFile.readLine();
@@ -81,26 +80,20 @@ public class Scanner {
 	    sourceFile = null;
 	    scannerError("Unspecified I/O error!");
 	}
-	System.out.println("this is me at "+ curLineNum() + "-" + line );
+
 	//-- Must be changed in part 1:
 	if (line==null){
-		System.out.println("EOF " + curLineNum() + "Top = "+ top + "at top = "+ indents[top]);
         addToIndents(0);
 		curLineTokens.add(new Token(eofToken,curLineNum()));
 
-	}else if(line.equals("") || line.startsWith("#")){
+	}else if("".equals(line.trim()) || line.startsWith("#")){
 
-		System.out.println("ignore line ");
 		return;
 	}else{
 		   String currentLine = expandLeadingTabs(line);
 		   numIndents = findIndent(currentLine);
-		   //add on indents
 
-		  // System.out.println("line at  " + curLineNum() + "  N of indents " + numIndents + "  sent to tokenizer " + currentLine);
-		   String tokenTobe = addToIndents(numIndents);
-		   System.out.println(tokenTobe);
-        //System.out.println("test for kind class "+ classToken.image);
+            addToIndents(numIndents);
 
 		findToken(currentLine);
 
@@ -138,7 +131,6 @@ public class Scanner {
 				return "INDENT";
 			}else if(indents[top] > tabs){
 				for (int i = top; i >= 0; i--) {
-
 					if (tabs == indents[i])
 					{
 						top = i;
@@ -151,21 +143,19 @@ public class Scanner {
 					}
 					indents[i] = 0; //set the stack to original value
 				}
+				scannerError("Indentation Error on the ASP code1");
 				return "Indentation Error on the ASP code";
 			}else if(indents[top]== tabs) {
 				return null;
 			}
-		return "Indentation Error last";
-	}
-
-	private String findspaceToken(String lineIn){
-		return null;
+            scannerError("Indentation Error on the ASP code");
+			return "Indentation Error on the ASP code";
 	}
 
     private String findToken(String lineIn){
 		int currentPos = numIndents;
 		String currentToken = "";
-		boolean flnum = false;
+
 
 		/*
 		*starts with digit, if 111 it is int if 11.1 it is float, if 11.11.1 it is wrong and handles as 11.11 and .
@@ -173,7 +163,7 @@ public class Scanner {
 		*/
 		while (currentPos < lineIn.length()){
     //digit
-            System.out.println("char at Position = "+ currentPos + " is "+lineIn.charAt(currentPos) );
+            boolean flnum = false;
 			if (isDigit(lineIn.charAt(currentPos))) {
 				while (currentPos < lineIn.length()){
 					if (isDigit(lineIn.charAt(currentPos))) {
@@ -184,17 +174,16 @@ public class Scanner {
 						flnum = true;
 						currentPos++;
 					}else if(lineIn.charAt(currentPos) == '.' && flnum){
-						System.out.println("ERROR: wrong number format: . at line  "+ curLineNum() + "position " + currentPos );
+						scannerError("ERROR: wrong number format: . at line  "+ curLineNum() + "position " + currentPos );
 						return null;
 					}
 					else {
-						//currentPos++;
 						break;
 					}
 				}
 				if (flnum) {
 					Token tokenTobe = new Token(floatToken, curLineNum());
-					tokenTobe.floatLit = Float.parseFloat(currentToken);
+					tokenTobe.floatLit = Double.parseDouble(currentToken);
 					curLineTokens.add(tokenTobe);
 				} else {
 					Token tokenTobe = new Token(integerToken, curLineNum());
@@ -211,7 +200,6 @@ public class Scanner {
 						currentPos++;
 					}
 					else{
-						//currentPos++;
 						break;
 					}
 				}
@@ -240,7 +228,7 @@ public class Scanner {
 				currentPos++;
 				while (currentPos < lineIn.length() && exit) {
 					if (lineIn.charAt(currentPos)=='\"'||lineIn.charAt(currentPos)=='\'') {
-						//currentToken = currentToken + lineIn.charAt(currentPos);
+
 						Token tokenTobe = new Token(stringToken, curLineNum());
 						tokenTobe.stringLit = currentToken;
 						curLineTokens.add(tokenTobe);
@@ -249,13 +237,13 @@ public class Scanner {
 						exit = false;
 					}
 					else{
-						//inn = true;
+
 						currentToken = currentToken + lineIn.charAt(currentPos);
 						currentPos++;
 					}
 				}//end of while
 				if (exit) {
-                    System.out.println("Error  \" do not closed line " + curLineNum() + " at " + currentPos);
+                    scannerError("Error  \" do not closed line " + curLineNum() + " at " + currentPos);
                     return null;
 				}
 
@@ -289,7 +277,7 @@ public class Scanner {
                     curLineTokens.add(tokenTobe);
                     currentPos++;
                 }else{
-                    System.out.println("unknown Symbol =  "+ lineIn.charAt(currentPos));
+                    scannerError("unknown Symbol =  "+ lineIn.charAt(currentPos));
                     currentPos++;
                     return null;
                     }
@@ -344,13 +332,6 @@ public class Scanner {
 		return c == '"';
 	}
 
-    private void handleSpecialChar(char c){
-
-	}
-
-	private void handleSpecialChars(char c1, char c2){
-
-	}
 
 
 
@@ -381,17 +362,5 @@ public class Scanner {
 	return false;
     }
 
-	public void printer(){
-	try {
-		String line1 = sourceFile.readLine();
-		if(line1 == null){
-		System.out.println("empty file ");
-		}
-		System.out.println(line1);
 
-		} catch (IOException e) {
-		sourceFile = null;
-		scannerError("Unspecified I/O error!");
-		}
-	}
 }

@@ -1,7 +1,7 @@
 
 # En Tab test hilsen
-navn = "Dag"
-print("Hei,", navn)
+    navn = "Dag"
+    print("Hei,", navn)
 if b:
     while c:
         c = False

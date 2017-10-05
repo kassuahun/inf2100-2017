@@ -17,6 +17,8 @@ public class LogFile {
     private String prettyLine = "";
     private int prettyIndentation = 0;
 
+
+
     public LogFile(String fname) {
 	logFileName = fname;
     }

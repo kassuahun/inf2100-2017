@@ -96,7 +96,7 @@ public class Main {
 			//Read File Line By Line
 			while (((strLine = br.readLine()) != null) && ((strLine1 = br1.readLine()) != null))   {
 				if (!strLine.equals(strLine1)) {
-					System.out.println("line " + i + " equals " + strLine.equals(strLine1));
+					System.out.println("line no " + i + " Error\n \t" + strLine + "\n \t"+ strLine1);
 				}
 				i++;
 			}

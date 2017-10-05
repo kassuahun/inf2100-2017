@@ -1,31 +1,68 @@
    1: 
-Scanner: NEWLINE token on line 1
    2: # En Tab test hilsen
-Scanner: NEWLINE token on line 2
-   3: navn = "Dag"
+   3:     navn = "Dag"
+Scanner: INDENT token on line 3
+Scanner: name token on line 3: navn
+Scanner: = token on line 3
+Scanner: string literal token on line 3: "Dag"
 Scanner: NEWLINE token on line 3
-   4: print("Hei,", navn)
+   4:     print("Hei,", navn)
+Scanner: name token on line 4: print
+Scanner: ( token on line 4
+Scanner: string literal token on line 4: "Hei,"
+Scanner: , token on line 4
+Scanner: name token on line 4: navn
+Scanner: ) token on line 4
 Scanner: NEWLINE token on line 4
    5: if b:
+Scanner: DEDENT token on line 5
+Scanner: if token on line 5
+Scanner: name token on line 5: b
+Scanner: : token on line 5
 Scanner: NEWLINE token on line 5
    6:     while c:
 Scanner: INDENT token on line 6
+Scanner: while token on line 6
+Scanner: name token on line 6: c
+Scanner: : token on line 6
 Scanner: NEWLINE token on line 6
    7:         c = False
 Scanner: INDENT token on line 7
+Scanner: name token on line 7: c
+Scanner: = token on line 7
+Scanner: False token on line 7
 Scanner: NEWLINE token on line 7
    8:         d = False
+Scanner: name token on line 8: d
+Scanner: = token on line 8
+Scanner: False token on line 8
 Scanner: NEWLINE token on line 8
    9:         if c:
+Scanner: if token on line 9
+Scanner: name token on line 9: c
+Scanner: : token on line 9
 Scanner: NEWLINE token on line 9
   10:             g = true
 Scanner: INDENT token on line 10
+Scanner: name token on line 10: g
+Scanner: = token on line 10
+Scanner: name token on line 10: true
 Scanner: NEWLINE token on line 10
   11:         else:
 Scanner: DEDENT token on line 11
+Scanner: else token on line 11
+Scanner: : token on line 11
 Scanner: NEWLINE token on line 11
   12: else:
 Scanner: DEDENT token on line 12
+Scanner: DEDENT token on line 12
+Scanner: else token on line 12
+Scanner: : token on line 12
 Scanner: NEWLINE token on line 12
   13: b = 0
+Scanner: name token on line 13: b
+Scanner: = token on line 13
+Scanner: integer literal token on line 13: 0
 Scanner: NEWLINE token on line 13
+Scanner: E-o-f token
+Scanner: NEWLINE token
