@@ -12,7 +12,7 @@ public abstract class AspSyntax {
     }
 
 
-    abstract void prettyPrint();
+    protected abstract void prettyPrint();
     abstract RuntimeValue eval(RuntimeScope curScope) throws RuntimeReturnValue;
 
 
