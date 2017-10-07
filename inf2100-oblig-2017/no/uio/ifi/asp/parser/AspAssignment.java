@@ -25,14 +25,13 @@ public class AspAssignment extends AspStmt{
         Main.log.enterParser("AspAssignment");
         AspAssignment ass = new AspAssignment(s.curLineNum());
 
-        test(s, nameToken)
-        ass.name = new AspName.parse(s.curLineNum());
-        skip(s,nameToken);
-
+        test(s, nameToken);
+        ass.name = AspName.parse(s);
+        //skip(s,nameToken);
         //if [
         if(s.curToken().kind == leftBracketToken) {
             while(true){
-                ass.sub.add(AspSubscription.parse(s.curLineNum()));
+                ass.sub.add(AspSubscription.parse(s));
                 //if [][
                 if(s.curToken().kind != leftBracketToken){
                     break;

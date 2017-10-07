@@ -9,6 +9,7 @@ import no.uio.ifi.asp.scanner.Scanner;
 import static no.uio.ifi.asp.scanner.TokenKind.notToken;
 
 public class AspName extends AspAtom{
+
     AspName(int n) {
         super(n);
     }
