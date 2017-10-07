@@ -25,7 +25,6 @@ public class AspFactorOpr extends AspSyntax{
         AspFactorOpr fOpr = new AspFactorOpr(s.curLineNum());
 
         fOpr.factOprType = s.curToken().kind;
-       // s.readNextToken();
         skip(s, factOprType);
 
         Main.log.leaveParser("AspFactorOpr");

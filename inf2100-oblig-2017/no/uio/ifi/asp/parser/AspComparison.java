@@ -27,9 +27,7 @@ public class AspComparison extends AspSyntax{
         comp.terms.add(AspTerm.parse(s));
 
         while(true){
-            if(!s.isCompOpr()) {
-                break;
-            }
+            if(!s.isCompOpr()) break;
             comp.compOprs.add(AspCompOpr.parse(s));
             comp.terms.add(AspTerm.parse(s));
         }

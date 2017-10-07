@@ -31,7 +31,6 @@ public class Scanner {
 	}
     }
 
-
     private void scannerError(String message) {
 	String m = "Asp scanner error";
 	if (curLineNum() > 0)
@@ -41,7 +40,6 @@ public class Scanner {
 	Main.error(m);
     }
 
-
     public Token curToken() {
 		while (curLineTokens.isEmpty()) {
 			readNextLine();
@@ -49,12 +47,10 @@ public class Scanner {
 	return curLineTokens.get(0);
     }
 
-
     public void readNextToken() {
 	if (! curLineTokens.isEmpty())
 	    curLineTokens.remove(0);
     }
-
 
     public boolean anyEqualToken() {
 	for (Token t: curLineTokens) {
@@ -62,7 +58,6 @@ public class Scanner {
 	}
 	return false;
     }
-
 
     private void readNextLine() {
 	curLineTokens.clear();
@@ -319,12 +314,11 @@ public class Scanner {
 	return ('A'<=c && c<='Z') || ('a'<=c && c<='z') || (c=='_');
     }
 
-
     private boolean isDigit(char c) {
 	return '0'<=c && c<='9';
     }
 
-	private boolean isSpace(char c) {
+    private boolean isSpace(char c) {
 		return c == ' ' || c == '\t';
 	}
 
@@ -333,42 +327,30 @@ public class Scanner {
 	}
 
 
-
-
     public boolean isCompOpr() {
 	TokenKind k = curToken().kind;
 	//-- Must be changed in part 2:
-		if (k == lessToken ||
-				k == greaterToken ||
-				k == doubleEqualToken ||
-				k == greaterEqualToken ||
-				k == lessEqualToken ||
-				k == notEqualToken){
-			return true;
-		}
-	return false;
-    }
 
+	return (k == lessToken || k == greaterToken || k == doubleEqualToken ||
+			k == greaterEqualToken || k == lessEqualToken || k == notEqualToken);
+    }
 
     public boolean isFactorPrefix() {
 	TokenKind k = curToken().kind;
 	//-- Must be changed in part 2:
-	return false;
+	return (k == plusToken || k==minusToken );
     }
-
 
     public boolean isFactorOpr() {
 	TokenKind k = curToken().kind;
 	//-- Must be changed in part 2:
-	return false;
+	return (k == plusToken || k==minusToken );
     }
-	
 
     public boolean isTermOpr() {
 	TokenKind k = curToken().kind;
 	//-- Must be changed in part 2:
-	return false;
+	return (k ==astToken || k==slashToken || k==percentToken || k==doubleSlashEqualToken );
     }
-
 
 }
