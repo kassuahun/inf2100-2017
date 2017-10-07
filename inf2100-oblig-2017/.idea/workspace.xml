@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f00b71b5-e95a-4015-a670-a9cdc9ee70f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspAssignment.java" afterPath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspAssignment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspName.java" afterPath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspName.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspSuite.java" afterPath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspSuite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +24,8 @@
             <file leaf-file-name="class list" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/class list">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="387">
-                    <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+                  <state relative-caret-position="192">
+                    <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
                     <folding />
                   </state>
                 </provider>
@@ -42,66 +41,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Scanner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/scanner/Scanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="348" column="0" lean-forward="false" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AspPrimarySuffix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspPrimarySuffix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AspPrimary.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspPrimary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#372#390#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AspInnerExpr.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AspInnerExpr.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspInnerExpr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="420">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AspListDisplay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspListDisplay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,7 +67,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AspAndTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AspStmt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspStmt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AspWhileStmt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspWhileStmt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AspSuite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AspTerm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspTerm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="27" column="15" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#365#376#0" expanded="true" />
+                <element signature="e#434#446#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AspAtom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspAtom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AspNotTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspNotTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AspAndTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspAndTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -134,28 +158,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AspDictDisplay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspDictDisplay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AspArguments.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspArguments.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,7 +207,6 @@
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/main/LogFile.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspProgram.java" />
         <option value="$PROJECT_DIR$/easter.asp" />
-        <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspSuite.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspIfStmt.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspFuncDef.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspBooleanLiteral.java" />
@@ -219,7 +220,6 @@
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/scanner/TokenKind.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspTerm.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspExprStmt.java" />
-        <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspWhileStmt.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspReturnStmt.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspAtom.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspExpr.java" />
@@ -236,13 +236,15 @@
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/scanner/Token.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/scanner/Scanner.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspPrimary.java" />
-        <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspInnerExpr.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspArguments.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspListDisplay.java" />
-        <option value="$PROJECT_DIR$/class list" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspName.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspAssignment.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspAndTest.java" />
+        <option value="$PROJECT_DIR$/class list" />
+        <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspInnerExpr.java" />
+        <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspSuite.java" />
+        <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspWhileStmt.java" />
       </list>
     </option>
   </component>
@@ -571,7 +573,7 @@
       <workItem from="1506586665477" duration="143000" />
       <workItem from="1506685260692" duration="1007000" />
       <workItem from="1506939140402" duration="13774000" />
-      <workItem from="1507106287958" duration="58461000" />
+      <workItem from="1507106287958" duration="59290000" />
     </task>
     <task id="LOCAL-00001" summary="friday 00:18">
       <created>1507241957274</created>
@@ -629,11 +631,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507397288890</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1930">
+      <created>1507398031875</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1507398031875</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193383000" />
+    <option name="totallyTimeSpent" value="194212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="968" height="1149" extended-state="0" />
@@ -846,14 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspIfStmt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -902,18 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspWhileStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspExpr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -927,18 +916,6 @@
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspNotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,26 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspAtom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspCompOpr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1050,18 +1007,6 @@
             <element signature="e#478#492#0" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
             <element signature="e#543#544#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspTerm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#376#0" expanded="true" />
-            <element signature="e#434#446#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1120,16 +1065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspInnerExpr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspArguments.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1137,14 +1072,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class list">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,6 +1118,90 @@
         <state relative-caret-position="225">
           <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspNotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspAtom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspTerm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="27" column="15" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#365#376#0" expanded="true" />
+            <element signature="e#434#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspWhileStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no/uio/ifi/asp/parser/AspInnerExpr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
