@@ -20,15 +20,15 @@ public class AspExpr extends AspSyntax {
 	Main.log.enterParser("expr");
 
 	//-- Must be changed in part 2:
-	AspExpr ae = new AspExpr(s.curLineNum());
+	AspExpr expr = new AspExpr(s.curLineNum());
         while (true) {
-            ae.andTests.add(AspAndTest.parse(s));
+            expr.andTests.add(AspAndTest.parse(s));
             if (s.curToken().kind != orToken) break;
             skip(s, orToken);
         }
 
 	Main.log.leaveParser("expr");
-	return ae;
+	return expr;
     }
 
 

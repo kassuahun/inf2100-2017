@@ -97,6 +97,10 @@ public enum TokenKind {
 
     String image;
 
+    public boolean isTermOpr() {
+        return (this == plusToken) || (this == minusToken);
+    }
+
     TokenKind(String s) {
 	image = s;
     }

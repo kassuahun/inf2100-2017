@@ -6,12 +6,13 @@ import no.uio.ifi.asp.runtime.RuntimeScope;
 import no.uio.ifi.asp.runtime.RuntimeValue;
 import no.uio.ifi.asp.scanner.Scanner;
 import no.uio.ifi.asp.scanner.TokenKind;
+import no.uio.ifi.asp.scanner.TokenKind.*;
 
 /**
  *
  */
 public class AspFactorOpr extends AspSyntax{
-    TokenKind oprType;
+    static TokenKind factOprType;
 
     public AspFactorOpr(int lNum) {
         super(lNum);
@@ -20,13 +21,14 @@ public class AspFactorOpr extends AspSyntax{
 
 
     public static AspFactorOpr parse(Scanner s) {
-        Main.log.enterParser("factor opr");
+        Main.log.enterParser("AspFactorOpr");
         AspFactorOpr fOpr = new AspFactorOpr(s.curLineNum());
 
-        fOpr.oprType = s.curToken().kind;
-        s.readNextToken();
+        fOpr.factOprType = s.curToken().kind;
+       // s.readNextToken();
+        skip(s, factOprType);
 
-        Main.log.leaveParser("factor opr");
+        Main.log.leaveParser("AspFactorOpr");
         return fOpr;
     }
     @Override

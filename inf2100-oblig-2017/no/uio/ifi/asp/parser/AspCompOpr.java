@@ -5,22 +5,22 @@ import no.uio.ifi.asp.runtime.RuntimeReturnValue;
 import no.uio.ifi.asp.runtime.RuntimeScope;
 import no.uio.ifi.asp.runtime.RuntimeValue;
 import no.uio.ifi.asp.scanner.Scanner;
+import no.uio.ifi.asp.scanner.TokenKind;
 
-import static no.uio.ifi.asp.scanner.TokenKind.notToken;
+public class AspCompOpr extends AspSyntax {
+    TokenKind compOprKind;
 
-public class AspName extends AspAtom{
-    AspName(int n) {
+    AspCompOpr(int n) {
         super(n);
     }
 
-    public static AspName parse(Scanner s) {
-        Main.log.enterParser("AspName");
-        AspName name = new AspName(s.curLineNum());
+    public static AspCompOpr parse(Scanner s) {
+        Main.log.enterParser("AspCompOpr");
+        AspCompOpr compOpr = new AspCompOpr(s.curLineNum());
+        compOpr.compOprKind = s.curToken().kind;
 
-
-
-        Main.log.leaveParser("AspName");
-        return name;
+        Main.log.leaveParser("AspCompOpr");
+        return compOpr;
     }
 
 
