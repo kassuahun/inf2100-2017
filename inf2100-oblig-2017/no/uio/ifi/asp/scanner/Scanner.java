@@ -341,6 +341,12 @@ public class Scanner {
 	return (k == plusToken || k==minusToken );
     }
 
+	public boolean isPrimaryPrefix() {
+		TokenKind k = curToken().kind;
+		//-- Must be changed in part 2:
+		return (k == leftBracketToken || k==leftParToken );
+	}
+
     public boolean isFactorOpr() {
 	TokenKind k = curToken().kind;
 	//-- Must be changed in part 2:

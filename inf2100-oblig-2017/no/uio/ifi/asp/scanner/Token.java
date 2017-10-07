@@ -13,35 +13,30 @@ public class Token {
     public double floatLit;
     public int lineNum;
 
-
     Token(TokenKind k) {
 
     	this(k, 0);
     }
 
-
     Token(TokenKind k, int lNum) {
-	kind = k;  lineNum = lNum;
+		kind = k;  lineNum = lNum;
     }
-
 
     void checkResWords() {
 	if (kind != nameToken) return;
 
-	for (TokenKind tk: EnumSet.range(andToken,yieldToken)) {
-	    if (name.equals(tk.image)) {
-		kind = tk;  break;
-	    }
-	}
+		for (TokenKind tk: EnumSet.range(andToken,yieldToken)) {
+			if (name.equals(tk.image)) {
+			kind = tk;  break;
+			}
+		}
     }
-
 
     public String showInfo() {
 	String t = kind + " token";
 	if (lineNum > 0) {
 	    t += " on line " + lineNum;
-	} 
-
+	}
 	switch (kind) {
 	case floatToken: t += ": " + floatLit;  break;
 	case integerToken: t += ": " + integerLit;  break;

@@ -21,16 +21,19 @@ public class AspPrimary extends AspSyntax{
         Main.log.enterParser("AspPrimary");
         AspPrimary primary = new AspPrimary(s.curLineNum());
 
-
-
-
+        primary.atom = AspAtom.parse(s);
+        if(s.isPrimaryPrefix()){
+            while(true){
+                primary.prSuffix.add(AspPrimarySuffix.parse(s));
+                if (!s.isPrimaryPrefix()) {
+                    break;
+                }
+            }
+        }
 
         Main.log.leaveParser("AspPrimary");
         return primary;
     }
-
-
-
 
     @Override
     protected void prettyPrint() {

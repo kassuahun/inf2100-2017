@@ -22,7 +22,7 @@ public class AspArguments extends AspPrimarySuffix {
 
         if(s.curToken().kind == leftParToken) {
             skip(s,leftParToken);
-            if(s.curToken().kind != rightBraceToken){
+            if(s.curToken().kind != rightParToken){
                 while(true) {
                     arg.exprList.add(AspExpr.parse(s));
                     if(s.curToken().kind != commaToken) break;
