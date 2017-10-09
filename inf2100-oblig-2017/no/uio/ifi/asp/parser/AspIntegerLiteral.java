@@ -16,7 +16,9 @@ public class AspIntegerLiteral extends AspAtom{
         Main.log.enterParser("AspIntegerLiteral");
         AspIntegerLiteral fOpr = new AspIntegerLiteral(s.curLineNum());
 
+        if(s.curToken().integerLit!= 0){
 
+        }
 
         Main.log.leaveParser("AspFloatLiteral");
         return null;

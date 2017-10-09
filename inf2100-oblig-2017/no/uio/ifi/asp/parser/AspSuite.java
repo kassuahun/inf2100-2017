@@ -5,14 +5,28 @@ import no.uio.ifi.asp.runtime.RuntimeReturnValue;
 import no.uio.ifi.asp.runtime.RuntimeScope;
 import no.uio.ifi.asp.runtime.RuntimeValue;
 import no.uio.ifi.asp.scanner.Scanner;
+import no.uio.ifi.asp.scanner.TokenKind;
+
+import java.util.ArrayList;
 
 public class AspSuite extends AspSyntax{
+    ArrayList<AspStmt> stmts = new ArrayList<>();
+
     AspSuite(int n) {
         super(n);
     }
 
     public static AspSuite parse(Scanner s) {
         Main.log.enterParser("AspSuite");
+        AspSuite suite = new AspSuite(s.curLineNum());
+
+        skip(s, TokenKind.newLineToken);
+        skip(s,TokenKind.indentToken);
+        while (true){
+            if (s.curToken().kind!= TokenKind.dedentToken) break;
+            suite.stmts.add(AspStmt.parse(s));
+        }
+        skip(s,TokenKind.dedentToken);
 
         Main.log.leaveParser("AspSuite");
         return null;
