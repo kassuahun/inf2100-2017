@@ -1,7 +1,7 @@
             package no.uio.ifi.asp.main
             - LogFile
             - Main
-
+after sync
             Part II
             package no.uio.ifi.asp.parser
             - [AspSyntax]               Done
