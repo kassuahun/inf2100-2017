@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f00b71b5-e95a-4015-a670-a9cdc9ee70f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspBooleanLiteral.java" afterPath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspBooleanLiteral.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class list" afterPath="$PROJECT_DIR$/class list" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/inf2100-oblig-2017/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/production/inf2100-oblig-2017/.idea/misc.xml" />
+    <list default="true" id="f00b71b5-e95a-4015-a670-a9cdc9ee70f6" name="Default" comment="this is to test the synchronization. sat 14/10/17&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/inf2100-oblig-2017/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/inf2100-oblig-2017/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +28,8 @@
       <file leaf-file-name="class list" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class list">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33097345">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.57168144">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -687,7 +682,13 @@
       <option name="project" value="LOCAL" />
       <updated>1507980995402</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="this is to test the synchronization. sat 14/10/17&#10;">
+      <created>1507981296227</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1507981296227</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -755,7 +756,8 @@
     <MESSAGE value="1955" />
     <MESSAGE value="2100" />
     <MESSAGE value="sunday 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="sunday 18" />
+    <MESSAGE value="this is to test the synchronization. sat 14/10/17&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is to test the synchronization. sat 14/10/17&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1252,8 +1254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class list">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33097345">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.57168144">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding />
         </state>
       </provider>
