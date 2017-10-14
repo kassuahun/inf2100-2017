@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f00b71b5-e95a-4015-a670-a9cdc9ee70f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspArguments.java" afterPath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspArguments.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspBooleanLiteral.java" afterPath="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspBooleanLiteral.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class list" afterPath="$PROJECT_DIR$/class list" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/inf2100-oblig-2017/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/production/inf2100-oblig-2017/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/inf2100-oblig-2017/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/inf2100-oblig-2017/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +33,8 @@
       <file leaf-file-name="class list" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class list">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6318584">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33097345">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -164,6 +167,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -224,8 +228,8 @@
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspName.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspIntegerLiteral.java" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspBooleanLiteral.java" />
-        <option value="$PROJECT_DIR$/class list" />
         <option value="$PROJECT_DIR$/no/uio/ifi/asp/parser/AspArguments.java" />
+        <option value="$PROJECT_DIR$/class list" />
       </list>
     </option>
   </component>
@@ -677,7 +681,13 @@
       <option name="project" value="LOCAL" />
       <updated>1507477758912</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="sunday 18">
+      <created>1507980995402</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1507980995402</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1242,8 +1252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class list">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6318584">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33097345">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding />
         </state>
       </provider>
