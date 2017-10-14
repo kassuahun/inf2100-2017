@@ -1,0 +1,1569 @@
+<program>
+   1: "Testing integer expressions:"
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+   2: 42
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+   3: -1017
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspFactorPrefix>
+                  </AspFactorPrefix>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+   4: -2 + 5 * 7
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspFactorPrefix>
+                  </AspFactorPrefix>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+                <AspTermOpr>
+                </AspTermOpr>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                  <AspFactorOpr>
+                  </AspFactorOpr>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+   5: 100 % (-2 % (+2 * 5) + 18)
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                  <AspFactorOpr>
+                  </AspFactorOpr>
+                  <AspPrimary>
+                    <atom>
+                      <AspInnerExpr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspFactorPrefix>
+                                    </AspFactorPrefix>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                    <AspFactorOpr>
+                                    </AspFactorOpr>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspInnerExpr>
+                                          <expr>
+                                            <and test>
+                                              <AspNotTest>
+                                                <AspComparison>
+                                                  <AspTerm>
+                                                    <AspFactor>
+                                                      <AspFactorPrefix>
+                                                      </AspFactorPrefix>
+                                                      <AspPrimary>
+                                                        <atom>
+                                                          <AspIntegerLiteral>
+                                                          </AspFloatLiteral>
+                                                        </atom>
+                                                      </AspPrimary>
+                                                      <AspFactorOpr>
+                                                      </AspFactorOpr>
+                                                      <AspPrimary>
+                                                        <atom>
+                                                          <AspIntegerLiteral>
+                                                          </AspFloatLiteral>
+                                                        </atom>
+                                                      </AspPrimary>
+                                                    </AspFactor>
+                                                  </AspTerm>
+                                                </AspComparison>
+                                              </AspNotTest>
+                                            </and test>
+                                          </expr>
+                                        </AspInnerExpr>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                  <AspTermOpr>
+                                  </AspTermOpr>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspInnerExpr>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+   6: 1234567890 // 1000000
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                  <AspFactorOpr>
+                  </AspFactorOpr>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+   7: 
+   8: "Testing float expressions:"
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+   9: 42.0
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspFloatLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  10: -1017.1
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspFactorPrefix>
+                  </AspFactorPrefix>
+                  <AspPrimary>
+                    <atom>
+                      <AspFloatLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  11: -2 + 5.0 * 7
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspFactorPrefix>
+                  </AspFactorPrefix>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+                <AspTermOpr>
+                </AspTermOpr>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspFloatLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                  <AspFactorOpr>
+                  </AspFactorOpr>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  12: 100 % (-2 % (+2 * 5.0) + 18)
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                  <AspFactorOpr>
+                  </AspFactorOpr>
+                  <AspPrimary>
+                    <atom>
+                      <AspInnerExpr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspFactorPrefix>
+                                    </AspFactorPrefix>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                    <AspFactorOpr>
+                                    </AspFactorOpr>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspInnerExpr>
+                                          <expr>
+                                            <and test>
+                                              <AspNotTest>
+                                                <AspComparison>
+                                                  <AspTerm>
+                                                    <AspFactor>
+                                                      <AspFactorPrefix>
+                                                      </AspFactorPrefix>
+                                                      <AspPrimary>
+                                                        <atom>
+                                                          <AspIntegerLiteral>
+                                                          </AspFloatLiteral>
+                                                        </atom>
+                                                      </AspPrimary>
+                                                      <AspFactorOpr>
+                                                      </AspFactorOpr>
+                                                      <AspPrimary>
+                                                        <atom>
+                                                          <AspFloatLiteral>
+                                                          </AspFloatLiteral>
+                                                        </atom>
+                                                      </AspPrimary>
+                                                    </AspFactor>
+                                                  </AspTerm>
+                                                </AspComparison>
+                                              </AspNotTest>
+                                            </and test>
+                                          </expr>
+                                        </AspInnerExpr>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                  <AspTermOpr>
+                                  </AspTermOpr>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspInnerExpr>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  13: 1234567890.0 // 1000000.0
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspFloatLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                  <AspFactorOpr>
+                  </AspFactorOpr>
+                  <AspPrimary>
+                    <atom>
+                      <AspFloatLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  14: 
+  15: "Testing string expressions"
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  16: "Abc"
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  17: "Î±" + "-"*5 + "Ï‰"
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+                <AspTermOpr>
+                </AspTermOpr>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                  <AspFactorOpr>
+                  </AspFactorOpr>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+                <AspTermOpr>
+                </AspTermOpr>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  18: 
+  19: "Testing boolean expressions"
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  20: not False
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspBooleanLiteral>
+                      </AspBooleanLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  21: "To be" or "not to be"
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  22: "Yes" and 3.14
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspFloatLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  23: False or True or 144 or "?"
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspBooleanLiteral>
+                      </AspBooleanLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspBooleanLiteral>
+                      </AspBooleanLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  24: 
+  25: "Testing comparisons"
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  26: 1 <= 2 <= 3
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+              <AspCompOpr>
+              </AspCompOpr>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+              <AspCompOpr>
+              </AspCompOpr>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  27: "a" != "b" > "b" != 99
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+              <AspCompOpr>
+              </AspCompOpr>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+              <AspCompOpr>
+              </AspCompOpr>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+              <AspCompOpr>
+              </AspCompOpr>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  28: 3.14 > 2.718281828459045 > 0
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspFloatLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+              <AspCompOpr>
+              </AspCompOpr>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspFloatLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+              <AspCompOpr>
+              </AspCompOpr>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspIntegerLiteral>
+                      </AspFloatLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  29: 
+  30: "Testing lists"
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  31: []
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspListDisplay>
+                      </AspListDisplay>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  32: [22, "w", [-1,+1], 3.14159265]
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspListDisplay>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspStringLiteral>
+                                        </AspStringLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspListDisplay>
+                                          <expr>
+                                            <and test>
+                                              <AspNotTest>
+                                                <AspComparison>
+                                                  <AspTerm>
+                                                    <AspFactor>
+                                                      <AspFactorPrefix>
+                                                      </AspFactorPrefix>
+                                                      <AspPrimary>
+                                                        <atom>
+                                                          <AspIntegerLiteral>
+                                                          </AspFloatLiteral>
+                                                        </atom>
+                                                      </AspPrimary>
+                                                    </AspFactor>
+                                                  </AspTerm>
+                                                </AspComparison>
+                                              </AspNotTest>
+                                            </and test>
+                                          </expr>
+                                          <expr>
+                                            <and test>
+                                              <AspNotTest>
+                                                <AspComparison>
+                                                  <AspTerm>
+                                                    <AspFactor>
+                                                      <AspFactorPrefix>
+                                                      </AspFactorPrefix>
+                                                      <AspPrimary>
+                                                        <atom>
+                                                          <AspIntegerLiteral>
+                                                          </AspFloatLiteral>
+                                                        </atom>
+                                                      </AspPrimary>
+                                                    </AspFactor>
+                                                  </AspTerm>
+                                                </AspComparison>
+                                              </AspNotTest>
+                                            </and test>
+                                          </expr>
+                                        </AspListDisplay>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspFloatLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspListDisplay>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  33: [101,102,103][1]
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspListDisplay>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspListDisplay>
+                    </atom>
+                    <AspPrimarySuffix>
+                      <AspSubscription>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspSubscription>
+                    </AspPrimarySuffix>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  34: [-1,0,1]*(2)
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspListDisplay>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspFactorPrefix>
+                                    </AspFactorPrefix>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspListDisplay>
+                    </atom>
+                  </AspPrimary>
+                  <AspFactorOpr>
+                  </AspFactorOpr>
+                  <AspPrimary>
+                    <atom>
+                      <AspInnerExpr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspInnerExpr>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  35: "Abcdef"[0]
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                    <AspPrimarySuffix>
+                      <AspSubscription>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspSubscription>
+                    </AspPrimarySuffix>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  36: 
+  37: "Testing dictionaries"
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspStringLiteral>
+                      </AspStringLiteral>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  38: {"A": "a", "B": 1+2}
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspDictDisplay>
+                        <AspStringLiteral>
+                        </AspStringLiteral>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspStringLiteral>
+                                        </AspStringLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                        <AspStringLiteral>
+                        </AspStringLiteral>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                  <AspTermOpr>
+                                  </AspTermOpr>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspDictDisplay>
+                    </atom>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+  39: {"Ja": 1, "Nei": 0}["Ja"]
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspDictDisplay>
+                        <AspStringLiteral>
+                        </AspStringLiteral>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                        <AspStringLiteral>
+                        </AspStringLiteral>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspIntegerLiteral>
+                                        </AspFloatLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspDictDisplay>
+                    </atom>
+                    <AspPrimarySuffix>
+                      <AspSubscription>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspStringLiteral>
+                                        </AspStringLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspSubscription>
+                    </AspPrimarySuffix>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+</program>

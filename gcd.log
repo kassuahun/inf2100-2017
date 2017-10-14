@@ -1,0 +1,506 @@
+<program>
+   1: 
+   2: # A program to compute the greatest common divisor
+   3: # of two numbers, i.e., the biggest number by which
+   4: # two numbers can be divided without a remainder.
+   5: 
+   6: def GCD (m, n):
+  <AspStmt>
+    <AspFuncDef>
+      <AspName>
+      </AspName>
+      <AspName>
+      </AspName>
+      <AspName>
+      </AspName>
+      <AspSuite>
+   7:    if n == 0:
+        <AspStmt>
+          <AspIfStmt>
+            <expr>
+              <and test>
+                <AspNotTest>
+                  <AspComparison>
+                    <AspTerm>
+                      <AspFactor>
+                        <AspPrimary>
+                          <atom>
+                            <AspName>
+                            </AspName>
+                          </atom>
+                        </AspPrimary>
+                      </AspFactor>
+                    </AspTerm>
+                    <AspCompOpr>
+                    </AspCompOpr>
+                    <AspTerm>
+                      <AspFactor>
+                        <AspPrimary>
+                          <atom>
+                            <AspIntegerLiteral>
+                            </AspFloatLiteral>
+                          </atom>
+                        </AspPrimary>
+                      </AspFactor>
+                    </AspTerm>
+                  </AspComparison>
+                </AspNotTest>
+              </and test>
+            </expr>
+            <AspSuite>
+   8:       return m
+              <AspStmt>
+                <AspReturnStmt>
+                  <expr>
+                    <and test>
+                      <AspNotTest>
+                        <AspComparison>
+                          <AspTerm>
+                            <AspFactor>
+                              <AspPrimary>
+                                <atom>
+                                  <AspName>
+                                  </AspName>
+                                </atom>
+                              </AspPrimary>
+                            </AspFactor>
+                          </AspTerm>
+                        </AspComparison>
+                      </AspNotTest>
+                    </and test>
+                  </expr>
+                </AspReturnStmt>
+              </AspStmt>
+   9:    else:
+            </AspSuite>
+            <AspSuite>
+  10:       return GCD(n, m % n)
+              <AspStmt>
+                <AspReturnStmt>
+                  <expr>
+                    <and test>
+                      <AspNotTest>
+                        <AspComparison>
+                          <AspTerm>
+                            <AspFactor>
+                              <AspPrimary>
+                                <atom>
+                                  <AspName>
+                                  </AspName>
+                                </atom>
+                                <AspPrimarySuffix>
+                                  <AspArguments>
+                                    <expr>
+                                      <and test>
+                                        <AspNotTest>
+                                          <AspComparison>
+                                            <AspTerm>
+                                              <AspFactor>
+                                                <AspPrimary>
+                                                  <atom>
+                                                    <AspName>
+                                                    </AspName>
+                                                  </atom>
+                                                </AspPrimary>
+                                              </AspFactor>
+                                            </AspTerm>
+                                          </AspComparison>
+                                        </AspNotTest>
+                                      </and test>
+                                    </expr>
+                                    <expr>
+                                      <and test>
+                                        <AspNotTest>
+                                          <AspComparison>
+                                            <AspTerm>
+                                              <AspFactor>
+                                                <AspPrimary>
+                                                  <atom>
+                                                    <AspName>
+                                                    </AspName>
+                                                  </atom>
+                                                </AspPrimary>
+                                                <AspFactorOpr>
+                                                </AspFactorOpr>
+                                                <AspPrimary>
+                                                  <atom>
+                                                    <AspName>
+                                                    </AspName>
+                                                  </atom>
+                                                </AspPrimary>
+                                              </AspFactor>
+                                            </AspTerm>
+                                          </AspComparison>
+                                        </AspNotTest>
+                                      </and test>
+                                    </expr>
+                                  </AspArguments>
+                                </AspPrimarySuffix>
+                              </AspPrimary>
+                            </AspFactor>
+                          </AspTerm>
+                        </AspComparison>
+                      </AspNotTest>
+                    </and test>
+                  </expr>
+                </AspReturnStmt>
+              </AspStmt>
+  11: 
+  12: v1 = int(input("A number: "))
+            </AspSuite>
+          </AspIfStmt>
+        </AspStmt>
+      </AspSuite>
+    </AspFuncDef>
+  </AspStmt>
+  <AspStmt>
+    <AspAssignment>
+      <AspName>
+      </AspName>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspName>
+                      </AspName>
+                    </atom>
+                    <AspPrimarySuffix>
+                      <AspArguments>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspName>
+                                        </AspName>
+                                      </atom>
+                                      <AspPrimarySuffix>
+                                        <AspArguments>
+                                          <expr>
+                                            <and test>
+                                              <AspNotTest>
+                                                <AspComparison>
+                                                  <AspTerm>
+                                                    <AspFactor>
+                                                      <AspPrimary>
+                                                        <atom>
+                                                          <AspStringLiteral>
+                                                          </AspStringLiteral>
+                                                        </atom>
+                                                      </AspPrimary>
+                                                    </AspFactor>
+                                                  </AspTerm>
+                                                </AspComparison>
+                                              </AspNotTest>
+                                            </and test>
+                                          </expr>
+                                        </AspArguments>
+                                      </AspPrimarySuffix>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspArguments>
+                    </AspPrimarySuffix>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspAssignment>
+  </AspStmt>
+  13: v2 = int(input("Another number: "))
+  <AspStmt>
+    <AspAssignment>
+      <AspName>
+      </AspName>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspName>
+                      </AspName>
+                    </atom>
+                    <AspPrimarySuffix>
+                      <AspArguments>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspName>
+                                        </AspName>
+                                      </atom>
+                                      <AspPrimarySuffix>
+                                        <AspArguments>
+                                          <expr>
+                                            <and test>
+                                              <AspNotTest>
+                                                <AspComparison>
+                                                  <AspTerm>
+                                                    <AspFactor>
+                                                      <AspPrimary>
+                                                        <atom>
+                                                          <AspStringLiteral>
+                                                          </AspStringLiteral>
+                                                        </atom>
+                                                      </AspPrimary>
+                                                    </AspFactor>
+                                                  </AspTerm>
+                                                </AspComparison>
+                                              </AspNotTest>
+                                            </and test>
+                                          </expr>
+                                        </AspArguments>
+                                      </AspPrimarySuffix>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspArguments>
+                    </AspPrimarySuffix>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspAssignment>
+  </AspStmt>
+  14: 
+  15: res = GCD(v1,v2)
+  <AspStmt>
+    <AspAssignment>
+      <AspName>
+      </AspName>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspName>
+                      </AspName>
+                    </atom>
+                    <AspPrimarySuffix>
+                      <AspArguments>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspName>
+                                        </AspName>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspName>
+                                        </AspName>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspArguments>
+                    </AspPrimarySuffix>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspAssignment>
+  </AspStmt>
+  16: print('GCD('+str(v1)+','+str(v2)+') =', res)
+  <AspStmt>
+    <AspExprStmt>
+      <expr>
+        <and test>
+          <AspNotTest>
+            <AspComparison>
+              <AspTerm>
+                <AspFactor>
+                  <AspPrimary>
+                    <atom>
+                      <AspName>
+                      </AspName>
+                    </atom>
+                    <AspPrimarySuffix>
+                      <AspArguments>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspStringLiteral>
+                                        </AspStringLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                  <AspTermOpr>
+                                  </AspTermOpr>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspName>
+                                        </AspName>
+                                      </atom>
+                                      <AspPrimarySuffix>
+                                        <AspArguments>
+                                          <expr>
+                                            <and test>
+                                              <AspNotTest>
+                                                <AspComparison>
+                                                  <AspTerm>
+                                                    <AspFactor>
+                                                      <AspPrimary>
+                                                        <atom>
+                                                          <AspName>
+                                                          </AspName>
+                                                        </atom>
+                                                      </AspPrimary>
+                                                    </AspFactor>
+                                                  </AspTerm>
+                                                </AspComparison>
+                                              </AspNotTest>
+                                            </and test>
+                                          </expr>
+                                        </AspArguments>
+                                      </AspPrimarySuffix>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                  <AspTermOpr>
+                                  </AspTermOpr>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspStringLiteral>
+                                        </AspStringLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                  <AspTermOpr>
+                                  </AspTermOpr>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspName>
+                                        </AspName>
+                                      </atom>
+                                      <AspPrimarySuffix>
+                                        <AspArguments>
+                                          <expr>
+                                            <and test>
+                                              <AspNotTest>
+                                                <AspComparison>
+                                                  <AspTerm>
+                                                    <AspFactor>
+                                                      <AspPrimary>
+                                                        <atom>
+                                                          <AspName>
+                                                          </AspName>
+                                                        </atom>
+                                                      </AspPrimary>
+                                                    </AspFactor>
+                                                  </AspTerm>
+                                                </AspComparison>
+                                              </AspNotTest>
+                                            </and test>
+                                          </expr>
+                                        </AspArguments>
+                                      </AspPrimarySuffix>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                  <AspTermOpr>
+                                  </AspTermOpr>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspStringLiteral>
+                                        </AspStringLiteral>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                        <expr>
+                          <and test>
+                            <AspNotTest>
+                              <AspComparison>
+                                <AspTerm>
+                                  <AspFactor>
+                                    <AspPrimary>
+                                      <atom>
+                                        <AspName>
+                                        </AspName>
+                                      </atom>
+                                    </AspPrimary>
+                                  </AspFactor>
+                                </AspTerm>
+                              </AspComparison>
+                            </AspNotTest>
+                          </and test>
+                        </expr>
+                      </AspArguments>
+                    </AspPrimarySuffix>
+                  </AspPrimary>
+                </AspFactor>
+              </AspTerm>
+            </AspComparison>
+          </AspNotTest>
+        </and test>
+      </expr>
+    </AspExprStmt>
+  </AspStmt>
+</program>
