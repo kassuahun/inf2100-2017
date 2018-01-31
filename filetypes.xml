@@ -8,6 +8,7 @@
       <mapping pattern="Read me" type="PLAIN_TEXT" />
       <mapping pattern="class list" type="PLAIN_TEXT" />
       <mapping pattern=".part-00000.crc" type="PLAIN_TEXT" />
+      <mapping pattern="Readme" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
